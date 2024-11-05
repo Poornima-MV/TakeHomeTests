@@ -1,4 +1,10 @@
-# HF JVM Take Home Test
+Code under- job_hunt_tracker-- in progress
+Tracker applications for job searches and outcomes- Cloud not enabled version
+
+-----------------------------------------------
+code under- statistics
+
+# HF JVM Take Home Test application  
 
 Create an HTTP service for recording of statistics of some arbitrary data over
 a closed period of time.
