@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Getting Started: Serving Web Content</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Application details</h1>
+    <form action="#" th:action="@{/trackersubmit}" th:object="${Tracker}" method="post">
+    <h2>Job application details</h2>
+    	<p>Company Name <input type="text" th:field="*{companyName}" /></p>
+        <p>Applied date <input type="date" th:field="*{applicationDate}" /></p>
+        <p>Job profile URL <input type="text" th:field="*{profileURL}" /></p>
+        <p>Proceeded Y/N ? <input type="text" th:field="*{interviewProceeded}" /></p>
+        
+        <h2>Interview details</h2>
+        <p>Interview date <input type="date" th:field="*{interviewDate}" /></p>
+        <p>Interviewers name(Seperate by comma if multi-panel) <input type="text" th:field="*{interviewers}" /></p>
+        <p>Interview round no <input type="text" th:field="*{interviewRound}" /></p>
+        
+        <h2>Interview questions that can be recollected</h2>
+        <p>Interview question seperated by ? </p>
+        <p><textarea width="1000px" th:field="*{interviewQuestions}" ></textarea></p>
+        
+        
+        
+        <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+    </form>
+</body>
+</html>
