@@ -1,8 +1,8 @@
-Code under- job_hunt_tracker-- in progress
-Tracker applications for job searches and outcomes- Cloud not enabled version
+Code under- job_hunt_tracker-- in progress:
+Tracker application (Spring MVC with springboot, Hibernate) for job searches and outcomes- Cloud not enabled version
 
------------------------------------------------
-code under- statistics
+------------------------------------------------------------------
+source code under- statistics HF take home test for problem given below: 
 
 # HF JVM Take Home Test application  
 
